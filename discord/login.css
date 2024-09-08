@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-image: url('https://global.discourse-cdn.com/brave/optimized/3X/6/7/67bbd0f2abcb0749c5b1e19d70b31d4ad88079fb_2_690x334.jpeg');
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+}
+
+.headers {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+}
+
+.que {
+    text-align: center;
+    margin: 10px 0 20px;
+    color: #ffffff;
+}
+
+.email-label, .password-label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.for-pass {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.f-pass {
+    color: #5201d4;
+    text-decoration: none;
+}
+
+.f-pass:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.create {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.create a {
+    color: #5201d4;
+    text-decoration: none;
+}
+
+.create a:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    flex: 1;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.text-below-image {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.text-below-image h1{
+    margin: 1px 0px ;
+    font-size: 15px;
+}
+.text-below-image p{
+    margin: 1px 0px ;
+    font-size: 15px;
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(63, 63, 252, 0.915);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.bg {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.login {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.forgot {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forgot a {
+    color: #2976d3;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #2976d3;
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #245a99;
+}
+
+span {
+    display: block;
+    text-align: center;
+}
+
+span a {
+    color: #2976d3;
+    text-decoration: none;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .bg {
+        padding: 15px;
+    }
+
+    input, button {
+        padding: 8px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
